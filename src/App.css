@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /*max-width: 1000px;*/
+  row-gap: 35px;
+  padding: 0 10px;
+}
+h1 {
+  font-family: 'Belanosima', sans-serif;
+  color: #000000;
+  text-align: center;
+}

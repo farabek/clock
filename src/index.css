@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #acbaca;
+}
+@media (max-width: 490px) {
+  body {
+    transform-origin: top center;
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 390px) {
+  body {
+    transform-origin: top center;
+    transform: scale(0.65);
+  }
+}
